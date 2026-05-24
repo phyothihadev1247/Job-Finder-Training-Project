@@ -1,0 +1,307 @@
+@media only screen and (max-width: 768px){
+	.container{
+		width: 90%;
+	}
+.sp{
+    display: block;
+}
+.pc{
+    display:  none;
+}
+.headcontent{
+	width: 100%;
+    overflow: hidden;
+    background: url(../img/spbg.png) no-repeat;
+    background-size: contain;
+    padding-bottom: 7%;
+}
+.logo{
+	width: 50%;
+    float: left;
+    margin-top: 15px;
+}
+.logo .hlogo{
+	width: 60%;
+    margin: 0px;
+}
+.nav .navbar{
+	width: 100%;
+    float: right;
+    margin-top: 21%;
+}
+.navbar .navtxt1{
+	width: 37%;
+    float: left;
+    text-align: right;
+}
+.navbar .navtxt1 a{
+	color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'MYRIAD';
+}
+.navbar .navtxt2{
+	width: 63%;
+    float: left;
+    text-align: right;
+}
+.navbar .navtxt2 a{
+	color: #FFFFFF;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 2px;
+    font-family: 'MYRIAD';
+}
+.fcontent .fhead{
+	font-size: 30px;
+    margin: 0px;
+    padding-top: 10%;
+    letter-spacing: 1px;
+    font-family: 'EBRIMABD';
+    color: #000000;
+}
+.fcontent .ftxt1{
+	font-size: 45px;
+    margin: 0px;
+    color: #67F4AF;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'EBRIMABD';
+}
+.fcontent .ftxt2{
+	font-size: 14px;
+    font-family: 'EBRIMA';
+    color: #000000;
+    margin: 0px;
+    padding-top: 10%;
+    text-align: left;
+}
+.fcontent .txtinput{
+	padding-right: 6%;
+    font-size: 13px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    font-family: 'EBRIMABD';
+    margin-top: 18px;
+}
+.fphoto{
+	width: 46%;
+    position: relative;
+    float: right;
+}
+.fphoto .fimg{
+	width: 100%;
+    position: absolute;
+    top: 40px;
+    right: 0%;
+    margin: 0px;
+}
+.imgtxt p{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 14px 0px;
+    font-family: 'EBRIMABD';
+}
+.icontent .img{
+    width: 36%;
+    float: left;
+    margin: 0px;
+    padding-right: 22px;
+    padding-left: 10px;
+    padding-bottom: 28px;
+}
+.tcontent p{
+    font-size: 35px;
+}
+.tselect{
+    width: 100%;
+}
+.tform .tlist{
+    margin-left: 27px;
+}
+.lcontent1{
+    width: 100%;
+}
+.lcontent2{
+    width: 100%;
+}
+.visualcontent h2 {
+    font-size: 35px;
+}    
+.paracontent1{
+    width: 100%;
+    float: left;
+}
+.paracontent2{
+    width: 100%;
+    float: left;
+}
+.paracontent1 .photocontent{
+    width: 33%;
+    float: left;
+}
+.paracontent2 .photocontent{
+    width: 33%;
+    float: left;
+}
+.photocontent .vfigure{
+    width: 71%;
+    margin: 0 auto;
+}
+.dcontent h2{
+    font-size: 35px;
+}
+.dcontent p{
+    width: 43%;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: justify;
+}
+.dcontent .dimg1{
+    width: 50%;
+    top: 43%;
+    left: 40%;
+}
+.dcontent .dimg2{
+    width: 50%;
+    top: 6%;
+    right: 5px;
+    margin: 0px;
+}
+.inputcontent{
+    width: 100%;
+    float: left;
+}
+.incontent h3{
+    font-size: 35px;
+}
+.incontent p{
+    width: 100%;
+    font-size: 16px;
+    color: #232F46;
+    text-align: initial;
+    font-family: 'EBRIMA';
+}
+.incontent{
+    width: 100%;
+    float: left;
+    padding-bottom: 7%;
+}
+.incontent .intxt{
+    margin-top: 0px;
+}
+.intxt .latxt{
+    border: 1px solid #757982;
+    color: #656774;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px 229px 7px 14px;
+    margin-right: 10px;
+    font-family: 'EBRIMABD';
+    margin-bottom: 25px;
+}
+.intxt .latxtz{
+    border: 1px solid #757982;
+    color: #656774;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px 232px 7px 13px;
+    margin-top: 0px;
+    font-family: 'EBRIMABD';
+}
+.incontent{
+    width: 100%;
+    float: left;
+    padding-bottom: 7%;
+}
+.incontent .txtradio{
+    float: left;
+    padding-bottom: 6%;
+}
+.txtradio .laradio{
+    font-size: 18px;
+    color: #232F46;
+    font-family: 'EBRIMABD';
+}
+.incontent a{
+    color: #FFFFFF;
+    background: #232F46;
+    padding: 10px 65px;
+    float: left;
+    margin-left: 26%;
+    font-family: 'EBRIMABD';
+}
+footer .lastcontent{
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/ftbgs.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 5px;
+}
+.lastcontent .ftblog{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 6%;
+}
+.ftblog .lastblog1{
+    width: 50%;
+    float: left;
+}
+.lastblog1 .flogo{
+    width: 49%;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.lastblog1 ul{
+    padding: 0px;
+    margin-top: 8%;
+}
+.lastblog1 ul li{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'EBRIMA';
+}
+.ftblog .lastblog2{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.lastblog2 p{
+    font-size: 14px;
+    position: absolute;
+    top: 165px;
+    left: 10%;
+    color: #FFFFFF;
+    font-family: 'EBRIMA';
+}
+.lastblog2 .contactlink1{
+    width: 11%;
+    position: absolute;
+    top: 10em;
+    left: 33%;
+}
+.lastblog2 .contactlink2{
+    width: 11%;
+    position: absolute;
+    top: 10em;
+    left: 63%;
+}
+.lastblog2 .contactlink3{
+    width: 11%;
+    position: absolute;
+    top: 10em;
+    left: 48%;
+}
+.lastcontent .ctxt{
+    margin-top: 8%;
+}
+.ctxt p{
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: 'MYRIAD';
+}

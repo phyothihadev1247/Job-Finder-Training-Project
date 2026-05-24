@@ -1,0 +1,489 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'EBRIMA';
+    src: url("../font/ebrima.ttf") format("truetype");
+}
+@font-face{
+    font-family: 'EBRIMABD';
+    src: url("../font/ebrimabd.ttf") format("truetype");
+}
+@font-face{
+    font-family: 'MYRIAD';
+    src: url("../font/Myriad Pro Bold SemiExtended.ttf") format("trutype");
+    src: url("../font/MyriadPro-BlackSemiCn.otf") format("opentype");
+    src: url("../font/MyriadPro-Bold.otf") format("opentype");
+}
+.pc{
+    display: block;
+}
+.sp{
+    display: none;
+}
+body{
+	width: 100%;
+	margin: 0px;	
+}
+img{
+	width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;  
+}
+.headcontent{
+	width: 100%;
+    overflow: hidden;
+    background: url(../img/bgimg.png) no-repeat;
+    background-size: contain;
+    padding-bottom: 4%;
+}
+.logo{
+	width: 50%;
+    float: left;
+    margin-top: 25px;
+}
+.nav{
+	width: 50%;
+    float: right;
+}
+.logo .hlogo{
+	width: 30%;
+    margin: 0px;
+}
+.nav .navbar{
+	width: 70%;
+    float: right;
+    margin-top: 10%;
+}
+.navbar .navtxt1 a{
+	color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'MYRIAD';
+}
+.navbar .navtxt2 a{
+	color: #FFFFFF;
+    font-size: 19px;
+    border: 3px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'MYRIAD';
+}
+.navbar .navtxt1{
+	width: 63%;
+    float: left;
+    text-align: right;
+}
+.navbar .navtxt2{
+	width: 36%;
+    float: left;
+    text-align: right;
+}
+.headcontent .fcontent{
+	width: 51%;
+    float: left;
+}
+.fphoto{
+	width: 49%;
+    position: relative;
+    float: right;
+}
+.fphoto .fimg{
+	width: 70%;
+    position: absolute;
+    top: 5em;
+    right: 20%;
+    margin: 0px;
+}
+.fcontent .fhead{
+	font-size: 90px;
+    margin: 0px;
+    padding-top: 15%;
+    letter-spacing: 5px;
+    font-family: 'EBRIMABD';
+}
+.fcontent .ftxt1{
+	font-size: 93px;
+    margin: 0px;
+    color: #67F4AF;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'EBRIMABD';
+}
+.fcontent .ftxt2{
+	font-size: 21px;
+    font-family: 'EBRIMA';
+}
+.fcontent .txtinput{
+	padding-right: 16%;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'EBRIMABD';
+}
+main{
+	width: 100%;
+}
+.imgcontent{
+	width: 100%;
+    background-color: #C9C8C7;
+    overflow: hidden;
+    padding-bottom: 4%;
+}
+.imgtxt p{
+	font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 30px 0px;
+    font-family: 'EBRIMABD';
+}
+.icontent{
+	width: 112%;
+    margin-top: 15px;
+}
+.icontent .img{
+	width: 13%;
+    float: left;
+    margin: 0px;
+    padding-right: 93px;
+}
+.txtcontent{
+	width: 100%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.tcontent{
+	width: 100%;
+    margin-top: 3%;
+}
+.tcontent p{
+	font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'EBRIMABD';
+}
+.tselect{
+	width: 42%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.tselect .tform{
+	margin-top: 25px;
+}
+.tform .tlist{
+	background-color: #26437C;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 6px;
+    margin-left: 55px;
+    font-family: 'EBRIMABD';
+}
+.listcontent{
+	width: 100%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 3%;
+}
+.lcontent1{
+	width: 50%;
+	float: left;
+}
+.lcontent2{
+	width: 50%;
+	float: right;
+}
+.lcontent1 .lblog1{
+	width: 97%;
+    border: 1px solid #E9E8E8;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 10px #000000;
+    padding-bottom: 25px;
+}
+.lcontent2 .lblog2{
+	width: 97%;
+    border: 1px solid #E9E8E8;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 10px #000000;
+    padding-bottom: 25px;
+}
+.lblog1 h3{
+	font-size: 25px;
+    margin-top: 10px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog1 h4{
+	font-size: 15px;
+    margin-top: 6px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog1 h5{
+	font-size: 15px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog1 p{
+	margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog1 a{
+    font-size: 15px;
+    background-color: #26437C;
+    color: #FFFFFF;
+    padding: 4px 20px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog2 h3{
+	font-size: 25px;
+    margin-top: 10px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog2 h4{
+	font-size: 15px;
+    margin-top: 6px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog2 h5{
+	font-size: 15px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog2 p{
+	margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.lblog2 a{
+    font-size: 15px;
+    background-color: #26437C;
+    color: #FFFFFF;
+    padding: 4px 20px;
+    font-family: 'MYRIAD';
+    margin-left: 30px;
+}
+.visualcontent{
+	width: 100%;
+	background-color: #C9C8C8;
+	overflow: hidden;
+	padding-top: 3%;
+}
+.visualcontent h2{
+	font-size: 50px;
+	text-align: center;
+    font-family: 'EBRIMABD';
+}
+.contentphoto{
+	width: 100%;
+    margin-top: 4%;
+}
+.contentphoto .photocontent{
+	width: 16%;
+    float: left;
+}
+.contentphoto .vfigure{
+	width: 60%;
+    margin: 0 auto;
+}
+.contentphoto .vftxt p{
+	text-align: center;
+    font-size: 17px;
+    font-family: 'EBRIMA';
+}
+.displaycontent{
+	width: 100%;
+    background-color: #C9C8C8;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.dcontent{
+	width: 100%;
+    margin-top: 15px;
+    padding-bottom: 10%;
+    position: relative;
+    font-family: 'EBRIMA';
+}
+.dcontent h2{
+	text-align: left;
+    font-size: 45px;
+    font-family: 'EBRIMABD';
+}
+.dcontent p{
+	width: 50%;
+    font-size: 19px;
+    line-height: 25px;
+}
+.dcontent .dimg1{
+	width: 27%;
+    position: absolute;
+    top: 53%;
+    right: 21%;
+}
+.dcontent .dimg2{
+	width: 27%;
+    position: absolute;
+    top: 9%;
+    right: 0px;
+    margin: 0px;
+}
+.inputcontent{
+    width: 100%;
+    background-color: #A7A4A9;
+    overflow: hidden;
+    margin-top: 1px;
+}
+.incontent{
+    width: 33%;
+    float: left;
+    padding-bottom: 15px;
+}
+.incontent h3{
+    font-size: 50px;
+    color: #232F46;
+    margin-top: 5%;
+    font-family: 'EBRIMABD';
+}
+.incontent p{
+    width: 69%;
+    font-size: 19px;
+    color: #232F46;
+    text-align: initial;
+    font-family: 'EBRIMA';
+}
+.incontent .intxt{
+    margin-top: 15%;
+}
+.intxt .latxt{
+    border: 1px solid #757982;
+    color: #656774;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px 4px 7px 14px;
+    margin-right: 10px;
+    font-family: 'EBRIMABD';
+}
+.intxt .latxtz{
+    border: 1px solid #757982;
+    color: #656774;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px 232px 7px 13px;
+    margin-top: 12px;
+    font-family: 'EBRIMABD';
+}
+.incontent .txtradio{
+    float: right;
+    padding-bottom: 5%;
+}
+.txtradio .laradio{
+    font-size: 18px;
+    color: #232F46;
+    font-family: 'EBRIMABD';
+}
+.incontent a{
+    color: #FFFFFF;
+    background: #232F46;
+    padding: 10px 65px;
+    float: right;
+    margin-left: 14%;
+    font-family: 'EBRIMABD';
+}
+footer{
+    width: 100%;
+}
+footer .lastcontent{
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/ftbg.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+.lastcontent .ftblog{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 3%;
+}
+.ftblog .lastblog1{
+    width: 50%;
+    float: left;
+}
+.ftblog .lastblog2{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.lastblog1 .flogo{
+    width: 25%;
+    margin: 0px;
+}
+.lastblog1 ul{
+    padding: 0px;
+    margin-top: 8%;
+}
+.lastblog1 ul li{
+    color: #AAA8AB;
+    font-size: 19px;
+    margin-bottom: 13px;
+    font-family: 'EBRIMA';
+}
+.lastblog2 p{
+    font-size: 19px;
+    position: absolute;
+    top: 11em;
+    left: 21%;
+    color: #AAA8AB;
+    font-family: 'EBRIMA';
+} 
+.lastblog2 .contactlink1{
+    width: 6%;
+    position: absolute;
+    top: 13em;
+    left: 35%;                     
+}
+.lastblog2 .contactlink2{
+    width: 6%;
+    position: absolute;
+    top: 13em;
+    left: 55%;                     
+}
+.lastblog2 .contactlink3{
+    width: 6%;
+    position: absolute;
+    top: 13em;
+    left: 45%;                     
+}
+.lastcontent .ctxt{
+    margin-top: 5%;
+}
+.ctxt p{
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: 'MYRIAD';
+}
+
